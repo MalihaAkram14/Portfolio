@@ -3,321 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahoora - Quality Assurance Engineer</title>
+    <title>Portfolio</title>
+
+    <!-- Font Awesome for social media icons -->
     <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts: Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
-    <!-- Header Section -->
-<section id="header">
-    <div class="container">
+<body class="dark">
+
+    <header> 
+        <a href="#" class="logo">Maliha Akram</a>
         <nav>
-            <!-- Logo / Name -->
-            <a class="logo"><span class="first-letter">S</span>ahoora Jamshed</a>
-            <ul>
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">Profile</a></li>
-                <li><a href="#services">Expertise</a></li>
-                <li><a href="#portfolio-achievements">Projects</a></li>
-                <li><a href="#languages">Skills</a></li>
-                <li><a href="#future-goals">Future Goals</a></li> 
-                <li><a href="#contact">Connect</a></li>
-            </ul>
+            <a href="#home" class="active">Home</a>
+           <a href="#about" id="about-link">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#Project">Experience</a>
+            <a href="#contact">Contact</a>
+            <button id="mode-toggle" class="mode-btn">
+                <i class="fa-solid fa-sun"></i>
+            </button>
         </nav>
-            <div class="header-text">
-                <p>Quality Assurance Engineer</p>
-                <h1>Hi, I'm Sahoora<br><span>Ensuring Quality & Delivering Reliable Software</span></h1>
-                <a href="#contact" class="btn btn2">Get In Touch</a>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-img">
+          
+        </div>
+
+        <div class="home-content">
+            <h1>Hi, It's <span>Maliha</span></h1>
+            <h3 class="typing-text">I'm a <span>Frontend Developer</span></h3>
+            <p>I’m a passionate Frontend Developer who loves building clean, responsive, and user-focused web interfaces.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/maliha-akram-2026ba395" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/MalihaAkram14" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="Maliha-Akram-CV.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
             </div>
         </div>
     </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="logo.jpeg" alt="Profile Photo">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">My Profile</h1>
-                    <p>I'm a detail-oriented Quality Assurance Engineer with a passion for delivering high-quality software solutions. I specialize in comprehensive testing strategies to ensure products are reliable, user-friendly, and defect-free.</p>
-
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('core-competencies')">Core Competencies</p>
-                        <p class="tab-links" onclick="opentab('professional-journey')">Professional Journey</p>
-                        <p class="tab-links" onclick="opentab('academic-background')">Academic Background</p>
-                    </div>
-
-                    <div class="tab-contents active-tab" id="core-competencies">
-                        <ul>
-                            <li><span>Bug Identification and Reporting</span><br>Detecting defects and documenting clear bug reports for efficient developer fixes.</li>
-                            <li><span>Test Case Design and Execution</span><br>Writing and running test cases to validate software functionality and quality.</li>
-                            <li><span>Collaboration and Communication</span><br>Working with teams to align on goals and communicate test results.</li>
-                        </ul>
-                    </div>
-
-              <div class="tab-contents" id="professional-journey">
-                <ul>
-                    <li><span>2024</span><br>Instagram Quality Assurance Project – QA Tester, validated core features like posts, stories, reels, and notifications.</li>
-                    <li><span>2025</span><br>Automated Shared Album System – System Designer/Developer, created conceptual architecture for automated media sharing.</li>
-        
-                   </ul>
-                          </div>
-
-                    <div class="tab-contents" id="academic-background">
-                        <ul>
-                            <li><span>2021 - 2025</span><br>Bachelor of Software Engineering</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+ <!-- About Section--------------------------------------------------------------------------------------------- -->
+    <section id="about" class="about">
+    <div class="about-container">
+        <!-- Profile Image -->
+        <div class="about-img">
+            <img src="logo.jpeg" alt="Maliha Akram">
         </div>
-    </section>
 
-    <!-- Expertise Section -->
-<section id="services">
-    <div class="container">
-        <h1 class="sub-title">My Expertise</h1>
-        <div class="services-list">
-            <div>
-                <i class="fas fa-code-branch"></i>
-                <h2>Test Planning & Execution</h2>
-                <p>I develop and execute test strategies using Agile methodologies, ensuring thorough coverage with tools like JIRA, Postman, and Selenium.</p>
-                <a href="#">Explore More</a>
-            </div>
-            <div>
-                <i class="fas fa-shield-alt"></i>
-                <h2>Quality Assurance</h2>
-                <p>I create comprehensive test plans, perform manual and automated testing to identify defects early, and ensure high-quality software delivery.</p>
-                <a href="#">Explore More</a>
-            </div>
-            <div>
-                <i class="fas fa-bug"></i>
-                <h2>Bug Reporting</h2>
-                <p>I identify, document, and track software defects with detailed reproduction steps and clear severity levels using tool like JIRA to ensure timely resolution.</p>
-                <a href="#">Explore More</a>
+        <!-- About Content -->
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm <span>Maliha Akram</span>, a passionate Frontend Developer focused on building responsive, modern, and user-friendly websites. I love turning ideas into digital experiences that are both functional and visually appealing.
+            </p>
+
+            <!-- Skills / Strengths Cards -->
+            <div class="about-cards">
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Expert in HTML, CSS, JavaScript, React, Tailwind, and UI libraries like PrimeReact.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating clean, modern, and intuitive interfaces for excellent user experiences.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Problem Solving</h3>
+                    <p>Strong analytical and creative skills to tackle challenges effectively.</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
+<!-- Skill Section ------------------------------------------------------------------>
+<section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <p>Technical expertise and tools I excel at for building modern web applications.</p>
 
+    <div class="skills-grid">
+        <div class="skill-item">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML5</h3>
+            <div class="skill-circle">
+              
+            </div>
+        </div>
 
-    <!-- Programming Languages & Tools Section -->
-    <section id="languages">
-        <div class="container">
-            <h1 class="sub-title">Programming Languages & Tools</h1>
-            <div class="languages-list">
-                <div class="language-item">
-                    <i class="fab fa-java"></i>
-                    <h3>Java</h3>
-                </div>
-                <div class="language-item">
-                    <i class="fab fa-python"></i>
-                    <h3>Python</h3>
-                </div>
-                <div class="language-item">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                </div>
+        <div class="skill-item">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS3</h3>
+            <div class="skill-circle">
+               
                 
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+            <div class="skill-circle">
+               
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <i class="fa-brands fa-react"></i>
+            <h3>React</h3>
+            <div class="skill-circle">
+               
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <i class="fa-brands fa-square-js"></i>
+            <h3>Tailwind & PrimeReact</h3>
+            <div class="skill-circle">
                 
-                <div class="language-item">
-                    <i class="fas fa-database"></i>
-                    <h3>SQL</h3>
-                </div>
-                <div class="language-item">
-                    <i class="fas fa-bug"></i>
-                    <h3>JIRA</h3>
-                </div>
-                <div class="language-item">
-                    <i class="fas fa-terminal"></i>
-                    <h3>Postman</h3>
-                </div>
-                <div class="language-item">
-                    <i class="fas fa-robot"></i>
-                    <h3>Selenium</h3>
-                </div>
             </div>
         </div>
-    </section>
+        <div class="skill-item">
+            <i class="fa-brands fa-git-alt"></i>
+            <h3>Git & GitHub</h3>
+            <div class="skill-circle">
+                
+            </div>
 
-<!-- Portfolio & Achievements Section -->
-<section id="portfolio-achievements">
-  <div class="container">
-    <h1 class="sub-title">Portfolio & Achievements</h1>
-
-    <div class="pa-list">
-      <!-- Project 1 -->
-      <div class="pa-card">
-        <i class="fas fa-mobile-alt"></i>
-        <h2>Instagram Quality Assurance Project</h2>
-        <p><strong>Role:</strong> Quality Assurance Tester</p>
-        <p>
-          Led a QA initiative for Instagram, validating core functionalities like post creation (editing, mentions, location tags), 
-          story management (photos, videos, stickers, highlights), IGTV & Reels, notifications, and profile management.
-        </p>
-        <p><strong>Technologies Used:</strong> Selenium WebDriver, Chrome Browser, Windows 11</p>
-        <a href="https://drive.google.com/file/d/1dW1H-IWhXjsN-wD655QqgipDDSkVhGLs/view?usp=drive_link" target="_blank" class="btn-link">View Project</a>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="pa-card">
-        <i class="fas fa-images"></i>
-        <h2>Automated Shared Album System</h2>
-        <p><strong>Role:</strong> System Designer / Developer</p>
-        <p>
-          Designed a conceptual architecture for an "Automated Shared Album" system. The system automates collaborative media sharing 
-          based on shared events, locations, or groups, eliminating manual selection and sharing.
-        </p>
-        <a href="https://docs.google.com/document/d/1tCnMchwDg7-3uYLxM9kiNMlenn5mYi1W/edit?usp=sharing&ouid=111062819346130186220&rtpof=true&sd=true" 
-           target="_blank" class="btn-link">View Concept</a>
-      </div>
-
-      <!-- Certification 1 -->
-      <div class="pa-card">
-        <i class="fas fa-certificate"></i>
-        <h2>Quality Assurance (QA) - Techniques & Methodologies</h2>
-        <p><strong>Completed:</strong> 24th August 2025</p>
-        <p>
-          Learned QA concepts, approaches, and standards. Applied QA testing techniques to improve reliability, performance, 
-          and quality control in software projects.
-        </p>
-        <a href="https://drive.google.com/file/d/1fpUjU1evbnd0FIlQ_JVzCmM6SvWFc6nX/view?usp=drive_link" target="_blank" class="btn-link">View Certificate</a>
-      </div>
-
-      <!-- Certification 2 -->
-      <div class="pa-card">
-        <i class="fas fa-project-diagram"></i>
-        <h2>Agile Project Management</h2>
-        <p><strong>Completed:</strong> 4th September 2025</p>
-        <p>
-          Learned Agile principles, Scrum roles, and sprint planning. Applied Agile methods for collaboration, 
-          task breakdown, and progress tracking in projects.
-        </p>
-        <a href="https://drive.google.com/file/d/1GVZ_ELYrYMzbAuA8_fXj9Yz3u8QL7q9c/view?usp=drive_link" target="_blank" class="btn-link">View Certificate</a>
-      </div>
-
-      <!-- Certification 3 -->
-      <div class="pa-card">
-        <i class="fas fa-code"></i>
-        <h2>Rest API Manual Testing For Beginners</h2>
-        <p><strong>Completed:</strong> 8th September 2025</p>
-        <p>
-          Learned the fundamentals of RESTful API testing, including client-server architecture,
-          CRUD operations (Create, Read, Update, Delete), JSON requests, and API documentation. 
-          Gained hands-on experience with Postman and cURL for manual API testing.
-        </p>
         
-        <a href="https://drive.google.com/file/d/1GU8fIKAQ9_eSUWlVi3Zbe7V6bBHn6sHT/view?usp=sharing" target="_blank" class="btn-link">View Certificate</a>
-      </div>
+        </div>
     </div>
-  </div>
-</section>
-<!-- Future Goals Section -->
-<section id="future-goals">
-  <div class="container">
-    <h1 class="sub-title">Future Goals</h1>
-    <div class="pa-list">
-      <div class="pa-card">
-        <!-- Changed icon from male-tie to a more neutral/female one -->
-        <i class="fas fa-user"></i>  
-        <h2>Project Manager</h2>
-        <p style="text-align: justify;">
-          My ultimate career aspiration is to grow into the role of a <strong>Project Manager</strong>, where I can lead with vision, inspire teams, and deliver impactful results. 
-          I am committed to continuously learning, embracing challenges, and sharpening my leadership skills to ensure that projects are executed with excellence. 
-          With dedication, adaptability, and a passion for collaboration, I aim to transform innovative ideas into successful realities while driving both personal and organizational growth.
-        </p>
-      </div>
-    </div>
-  </div>
 </section>
 
+<!-- Contact Section ------------------------------------------------------------------>
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaborations, projects, or just to say hi!</p>
 
+    <div class="contact-container">
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
 
-
-    <!-- Connect Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <!-- Contact Information -->
-                <div class="contact-left">
-                    <h1 class="sub-title">Let's Connect</h1>
-                    <p><i class="fas fa-paper-plane"></i> sahoora.jamshed@gmail.com</p>
-                    <p><i class="fas fa-phone-square-alt"></i> 0323 4707741</p>
-                    <div class="social-icons">
-                        <!-- GitHub -->
-                        <a href="https://github.com/Sahoora159" target="_blank" rel="noopener">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <!-- X (Twitter) -->
-                        <a href="https://x.com/Sahoora715066?t=lB_h8XvWw2qz9_ZqojtO9Q&s=08" target="_blank" rel="noopener">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <!-- Pinterest -->
-                        <a href="https://pin.it/43w6jTrTY" target="_blank" rel="noopener">
-                            <i class="fab fa-pinterest"></i>
-                        </a>
-                        <!-- LinkedIn -->
-                        <a href="https://www.linkedin.com/in/sahoora-jamshed" target="_blank" rel="noopener">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </div>
-                   
-                    <a href="https://drive.google.com/file/d/1hyTZ1SSWEqnaKOCHAAG4JJeBiR11fo1g/view?usp=drive_link"  class="btn btn2">Download Resume</a>
-
-                    </div>
-
-                <!-- Contact Form -->
-                <div class="contact-right">
-                    <form action="https://formspree.io/f/xayzjldq" method="POST">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-                        <button type="submit" class="btn btn2">Send Message</button>
-                    </form>
-                </div>
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <p>malihaakram86@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-phone"></i>
+                <p>+92 3259661525</p>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Gujranwala, Pakistan</p>
             </div>
         </div>
-    </section>
-
-    <!-- Copyright Section -->
-    <div class="copyright">
-        <p>© 2025 Sahoora. Crafted with <i class="fas fa-heart"></i> by Sahoora</p>
     </div>
+</section>
 
-    <!-- JavaScript for Tab Functionality -->
+
+
+
+    
+
     <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
+        // Dark/Light Mode
+        const toggleBtn = document.getElementById('mode-toggle');
+        const body = document.body;
+        const icon = toggleBtn.querySelector('i');
 
-        function opentab(tabname) {
-            for (let tablink of tablinks) {
-                tablink.classList.remove("active-link");
+        toggleBtn.addEventListener('click', () => {
+            body.classList.toggle('light');
+            body.classList.toggle('dark');
+            if(body.classList.contains('light')){
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            } else {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
             }
-            for (let tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
+        });
+
+        // Smooth Scroll and Remove Margin on About Click
+        const aboutLink = document.getElementById('about-link');
+        aboutLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            document.body.style.marginTop = '0'; // Remove top margin
+            document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Smooth scroll for other links
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
     </script>
+
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
